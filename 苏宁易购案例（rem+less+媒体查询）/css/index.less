@@ -1,0 +1,91 @@
+@import "common.css";
+body{
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #f2f2f2;
+}
+.search-content{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: (88rem / 50);
+    width: 15rem;
+    background-color: #FFC001;
+
+    .classify{
+        width: (44rem / 50);
+        height: (70rem / 50);
+        margin:(11rem / 50) (25rem / 50) (7rem / 50) (24rem / 50) ;
+        background: url(../images/classify.png) no-repeat;
+        background-size:  (44rem / 50) (70rem / 50);
+        
+    }
+    .search{
+        flex:1;
+        
+        input{
+            font-size: (25rem / 50);
+            outline: none;
+            border: 0;
+            height: (66rem / 50);
+            width: 100%;
+            border-radius:(33rem / 50);
+            background-color: #fff2cc;
+            margin-top: (12rem / 50);
+            padding-left: (55rem / 50);
+            color: #757575;
+
+        }
+    }
+    .login{
+        width: (75rem / 50);
+        height: (70rem / 50);
+        margin: (10rem / 50);   
+        font-size: (25rem / 50);
+        line-height:(70rem / 50); 
+        color: #fff;
+        text-align: center;
+        
+    }
+    
+}
+.banner{
+     width: (750rem / 50);
+     height: (368rem / 50);
+    img{
+        width: 100%;
+    }
+}
+.ad{
+    display: flex;
+    a{
+        flex:1;
+        img{
+            width: 100%;
+        }
+    }
+}
+nav{
+    width: 15rem;
+    a{
+        float: left;
+        width: (150rem / 50);
+        height: (140rem / 50);
+        text-align: center;
+        img{
+            display: block;
+            width: (82rem / 50);
+            height: (82rem / 50);
+            margin: (10rem / 50) auto 0;
+        }
+        span{
+            font-size: (25rem / 50);
+            color: #333;
+        }
+    } 
+}
